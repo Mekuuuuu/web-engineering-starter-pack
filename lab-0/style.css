@@ -5,14 +5,54 @@ body {
   
   .sender-column {
     text-align: right;
+    font-style: italic;
   }
-  
+
+  .sender-column p {
+    margin: 0
+  }
+
+  .letter-date {
+    text-align: right;
+  }
+
+  .receiver-column {
+    /* text-align: left; */
+    font-style: italic;
+  }
+
+  .receiver-column p {
+    margin: 0;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .letter-closing {
+    text-align: left;
+  }
+
+  .text-dotted-underline {
+    text-decoration: underline dotted;
+  }
+
+  .no-space-before-after {
+    margin-bottom: 0;
+    margin-top: 0
+  }
+
+  .indent {
+    /* text-align: left; */
+    margin-left: 40px;
+  }
+
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   
   h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   
   p,ul,ol,dl,address {
@@ -22,4 +62,3 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
-  
